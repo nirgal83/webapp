@@ -1,6 +1,6 @@
 
 body {
-    background: darkolivegreen;
+    background: lightgray;
     margin: 0;
     text-align: center;
     z-index: 0;
@@ -237,16 +237,3 @@ form{
 
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
