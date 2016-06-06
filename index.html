@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Netcraft</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="bootstrap-theme.min.css"/>
+    <script src="jquery-1.11.1.min%20copy%202.js"></script>
+    <script src="core.js"></script>
+    <link rel="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"/>
+</head>
+<header>
+    <div class="header-wrap">
+        <a href="#">
+            <img class="logo-img" src="https://googledrive.com/host/0B6ZIsommzsgVMVA2MzdKUjN2S0U/logo-netcraft.svg"
+                 alt="netcraft"></a>
+
+        <form class="search-box" method="get" action="http://www.google.com">
+            <input type="search" name="q" placeholder="search" class="search">
+        </form>
+    </div>
+</header>
+<body>
+<div class="page-body layout-wrap">
+    <div class="notifications"></div>
+    <nav>
+        <div class="nav-section">
+            <p> Select <br> Reporting Platform</p>
+            <img class="main-img" src="action-report-new.png">
+
+            <div class="menu">
+                <div class="menu-hint">
+                    <img class="rotate-arrow" src="Arrow.png"/>
+
+                    <p class="sliding-p"> Choose QS report</p>
+                    <ul class="action-list">
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="nav-section">
+            <img class="main-img" src="action-report-top.png">
+
+            <p>Select<br> Dashboard</p>
+
+            <div class="menu">
+                <div class="menu-hint">
+                    <img class="rotate-arrow" src="Arrow.png"/>
+
+                    <p class="sliding-p">Choose dashboard</p>
+                    <ul class="action-list">
+                        <li><a href="http://www.walla.co.il/">woop</a></li>
+                        <li><a href="http://www.walla.co.il/">woopal</a></li>
+                        <li><a href="http://www.walla.co.il/">woopon</a></li>
+                        <li><a href="http://www.walla.co.il/">woop_woop</a></li>
+                        <li><a href="http://www.walla.co.il/">wopo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="nav-section">
+            <p>Help & <br> Tutorials</p>
+            <img class="main-img" src="actions-help.png">
+
+            <div class="menu">
+                <div class="menu-hint">
+                    <img class="rotate-arrow" src="Arrow.png"/>
+
+                    <div class="sliding-menu-wrap">
+                        <p class="sliding-p">Choose guide</p>
+                        <ul class="action-list">
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="tabs">
+        <ul>
+            <li class="triger-pop-window ">Quick Reports</li>
+            <li class="triger-pop-window">My Folders</li>
+            <li class="triger-pop-window">My Team Folders</li>
+            <li class="triger-pop-window">Public Folders</li>
+        </ul>
+        <div class="pop-window-wraper">
+            <div class="pop-window">
+                <a class="system-img-wrap"> <img class="system-img" src="1463944344_gear-01.png"></a>
+                <select class="web-pick"></select>
+                <div class="inside-window-wrap">
+                    <form>
+                        <div class="input-wrap">
+                            <p class="input-p">report 01</p>
+                            <label>Name</label><input type="text" class="input-text" value="one" required/>
+                            <label>URL</label><input type="url" class="input-text" value="http://www.one.co.il" required/>
+                        </div>
+                        <div class="input-wrap">
+                            <p class="input-p">report 02</p>
+                            <label>Name</label><input type="text" class="input-text"required/>
+                            <label>URL</label><input type="url" class="input-text"required/>
+                        </div>
+                        <div class="input-wrap">
+                            <p class="input-p">report 03 </p>
+                            <label>Name</label><input type="text" class="input-text" />
+                            <label>URL</label><input type="url" class="input-text" />
+                        </div>
+                        <button type="submit" class="save">save</button>
+                    </form>
+                    <div class="web-frame-wrap">
+                        <iframe class="web-frame"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="pop-window">
+                <iframe class="frame" src="http://www.walla.co.il"></iframe>
+
+            </div>
+            <div class="pop-window">
+                <a class="system-img-wrap"><img class="system-img" src="1463944344_gear-01.png"></a>
+                <select class="web-pick"></select>
+                <div class="inside-window-wrap">
+                    <form>
+                        <div class="input-wrap">
+                            <p class="input-p">report 01</p>
+                            <label>Name</label><input class="input-text" required/>
+                            <label>URL</label><input type="url"  class="input-text vald" required/>
+                        </div>
+                        <div class="input-wrap">
+                            <p class="input-p">report 02</p>
+                            <label>Name</label><input type="text" class="input-text" required/>
+                            <label>URL</label><input type="url"  class="input-text vald" required/>
+                        </div>
+                        <div class="input-wrap">
+                            <p class="input-p">report 03 </p>
+                            <label>Name</label><input type="text" class="input-text"/>
+                            <label>URL</label><input type="url"  class="input-text vald"/>
+                        </div>
+                        <input type="submit" class="save">save</input>
+                    </form>
+                    <div class="web-frame-wrap">
+                        <iframe class="web-frame"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="pop-window">
+                <iframe class="frame" src="https://www.geektime.co.il"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+
+    $(function (){
+
+        $(".system-img-wrap").each(function(i,l) {
+
+            var slideDown = true;
+
+            $(l).on("click", function(){
+
+                $("form").each(function (i,l){
+
+                    if(slideDown) {
+
+                        $(l).slideDown().css({"z-index": "10"});
+
+                        slideDown = false;
+
+                    }
+
+                    else {
+
+                        $(l).slideUp()
+
+                        slideDown = true
+
+                    }
+
+
+
+
+                });
+
+            });
+
+        });
+
+
+                });
+
+
+
+    $(function () {
+
+        $(".web-frame-wrap").css({display:"none"});
+
+        var select = $(".web-pick");
+
+
+        $(".save").on("click", function (r) {
+
+            r.preventDefault();
+
+            window.myValues = [];
+
+            $(".input-text").each(function (i, l) {
+
+
+             if ($(l).val().length === 0  || !l.validity.valid) {
+
+                 $(l).css({border: "2px solid red"});
+
+                 return false
+
+             }
+
+             else if ($(l).val().length >0) {
+
+                 $(l).css({border: "2px solid gray"});
+
+                 myValues.push(l.value);
+
+             }
+
+                $(".web-frame-wrap").css({display:"block"});
+
+
+            });
+
+
+            select.html("") ;
+
+            for(var i = 0 ; i < myValues.length ; i+=2){
+
+                var option = document.createElement("option");
+
+                option.innerText = myValues[i];
+
+                option.value = myValues[i+1];
+
+                select.append(option);
+
+            }
+
+
+            $(".web-frame").attr("src", myValues[1]);
+            $("form").slideUp();
+            $(".web-pick").css({display:"inline-block"})
+
+
+       });
+
+
+        select.on("change" , function(){
+
+            var url = select.val();
+
+            $(".web-frame").attr("src", url);
+
+
+
+
+
+        });
+
+    });
+
+
+    $(function () {
+
+
+        $(".nav-section").hover(function (e) {
+
+                $(this).find(".action-list").css({display: "inline-block"});
+
+            }, function () {
+
+                $(this).find(".action-list").css({display: "none"});
+            }
+        );
+    });
+
+    $(function () {
+
+        var list = $(".triger-pop-window");
+        var divs = $(".pop-window");
+        var links = [];
+
+        for (var n = 0; n < list.length; n++) {
+
+            var currentLink = {li: list[n], div: divs[n]};
+
+            links.push(currentLink);
+
+            $(currentLink.li).on("click", function (e) {
+
+                var curlink = null;
+
+
+                for (var x = 0; x < links.length; x++) {
+                    if (links[x].li === e.target) {
+                        curlink = links[x];
+                        break;
+                    }
+                }
+
+                for (var i = 0; i < links.length; i++) {
+
+                    var tlink = links[i];
+
+                    if (tlink.div !== curlink.div) {
+
+                        $(tlink.div).css({display: "none"});
+
+                        $(tlink.li).css({background: "dimgray"});
+                    }
+                }
+
+                $(curlink.div).slideDown();
+
+                $(curlink.li).css({background: "gainsboro"});
+
+            });
+        }
+
+
+    });
+
+
+</script>
+</body>
+</html>
